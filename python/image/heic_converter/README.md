@@ -25,5 +25,5 @@ pip install -r requirements.txt
 ### 4. Run the Script
 
 ```bash
-python heic.py
+python heic.py [-d DIRECTORY] [-f {JPEG,JPG,PNG,WEBP}] [--delete-original] [--no-parallel]
 ```
