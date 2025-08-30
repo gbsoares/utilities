@@ -18,8 +18,15 @@ source venv/bin/activate
 
 ### 3. Install Requirements
 
+Install python requirements:
+
 ```bash
 pip install -r requirements.txt
+```
+
+You may also need to install HEIF/AVIF encoder and decoder library:
+```bash
+sudo apt install libheif1
 ```
 
 ### 4. Run the Script
