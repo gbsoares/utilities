@@ -1,3 +1,9 @@
+"""
+HEIF Image converter
+
+This script converts HEIF images to other formats (JPEG, PNG, WEBP) in the specified directory.
+"""
+
 import argparse
 import os
 from pathlib import Path
@@ -92,7 +98,6 @@ def convert_heic_images(input_dir=".", output_format="JPEG", delete_original=Fal
 
 
 def main():
-    """Main function to handle command-line arguments and run conversion."""
     parser = argparse.ArgumentParser(description="Convert HEIC images to other formats")
     parser.add_argument("-d", "--directory", default=".", help="Directory containing HEIC files (default: current directory)")
     parser.add_argument("-f", "--format", default="JPEG", choices=["JPEG", "JPG", "PNG", "WEBP"], help="Output format (default: JPEG)")
