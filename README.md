@@ -1,2 +1,3 @@
 # Description
-A repo to store a collection of scripts and tools that I develop.
+
+Collection of personal scripts and tools.
